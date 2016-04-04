@@ -43,9 +43,18 @@ footer {
   padding: 8px; }
   footer .bar {
     overflow: hidden;
-    padding: 9px; }
+    padding: 0 9px; }
   footer .progress-bar {
     transition: none !important; }
 
 .album img {
   height: 300px; }
+
+
+  [double-click] {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer; }
+
+  tr[double-click]:hover {
+    background-color: #444; }
